@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metrics scope="server-plugin-report-markdown" type="Project" date="2021-03-18" xmlns="http://metrics.sourceforge.net/2003/Metrics-First-Flat">
+   <Metric id = "VG" description ="McCabe Cyclomatic Complexity" max ="10" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1,885" stddev = "2,621" max = "14" maxinrange="false">
+         <Value name="newResourceResponse" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="14" inrange="false"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="6"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[#call" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous##call" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous##call" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="process" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[#call" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3#getParts" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="onInitialize" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="paramsOf" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="isActive" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="render" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="getStartPage" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="process" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="setStartPage" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="suggestVariables" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="getFile" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="getFilePatterns" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="setFile" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="suggestVariables" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[#writeData" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous##call" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="paramsOf" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="getResource" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="configure" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2#getOrder" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2#getTabs" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3#getOrder" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4#configure" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[#getAbstractClass" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[#getImplementations" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="getReportName" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="isPermitted" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="renderHead" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="render" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[#newLink" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous##call" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "PAR" description ="Number of Parameters" max ="5" hint ="Move invoked method or pass an object">
+      <Values per = "method" avg = "0,962" stddev = "1,091" max = "4">
+         <Value name="paramsOf" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="process" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="3"/>
+         <Value name="process" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="3"/>
+         <Value name="paramsOf" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="3"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[#newLink" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="setStartPage" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="suggestVariables" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="setFile" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="suggestVariables" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="newResourceResponse" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[#writeData" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2#getTabs" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3#getParts" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4#configure" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="renderHead" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="isActive" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="render" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="render" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="getStartPage" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[#call" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="getFile" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="getFilePatterns" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[#call" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous##call" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="getResource" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="configure" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2#getOrder" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous##call" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3#getOrder" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous##call" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[#getAbstractClass" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[#getImplementations" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="getReportName" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="isPermitted" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="onInitialize" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous##call" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NBD" description ="Nested Block Depth" max ="5" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1,808" stddev = "1,387" max = "6" maxinrange="false">
+         <Value name="configure" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="6" inrange="false"/>
+         <Value name="process" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="5"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3#getParts" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="5"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[#call" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="process" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="newResourceResponse" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2#getTabs" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[#writeData" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="3"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous##call" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="3"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous##call" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="3"/>
+         <Value name="render" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="3"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[#call" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous##call" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="onInitialize" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="isActive" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[#newLink" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="render" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="getStartPage" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="setStartPage" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="suggestVariables" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="getFile" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="getFilePatterns" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="setFile" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="suggestVariables" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="paramsOf" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="getResource" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2#getOrder" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3#getOrder" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4#configure" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[#getAbstractClass" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[#getImplementations" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="getReportName" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="isPermitted" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="paramsOf" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="renderHead" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous##call" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "CA" description ="Afferent Coupling">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="io.onedev.server.plugin.report.markdown" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CE" description ="Efferent Coupling">
+      <Values per = "packageFragment" avg = "9" stddev = "0" max = "9">
+         <Value name="io.onedev.server.plugin.report.markdown" package ="io.onedev.server.plugin.report.markdown" value ="9"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMI" description ="Instability">
+      <Values per = "packageFragment" avg = "1" stddev = "0" max = "1">
+         <Value name="io.onedev.server.plugin.report.markdown" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMA" description ="Abstractness">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="io.onedev.server.plugin.report.markdown" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMD" description ="Normalized Distance">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="io.onedev.server.plugin.report.markdown" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DIT" description ="Depth of Inheritance Tree">
+      <Values per = "type" avg = "3,444" stddev = "2,217" max = "9">
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="9"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="6"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="5"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="3"/>
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "WMC" description ="Weighted methods per Class">
+      <Values per = "type" total = "49" avg = "5,444" stddev = "4,833" max = "15">
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="15"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="13"/>
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="6"/>
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="3"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="3"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSC" description ="Number of Children">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NORM" description ="Number of Overridden Methods">
+      <Values per = "type" total = "3" avg = "0,333" stddev = "0,471" max = "1">
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "LCOM" description ="Lack of Cohesion of Methods">
+      <Values per = "type" avg = "0,037" stddev = "0,105" max = "0,333">
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="0,333"/>
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOF" description ="Number of Attributes">
+      <Values per = "type" total = "5" avg = "0,556" stddev = "0,685" max = "2">
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSF" description ="Number of Static Attributes">
+      <Values per = "type" total = "15" avg = "1,667" stddev = "1,633" max = "5">
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="5"/>
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="3"/>
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="3"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOM" description ="Number of Methods">
+      <Values per = "type" total = "17" avg = "1,889" stddev = "1,37" max = "4">
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="3"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NONM" description ="Number of Normal Methods">
+      <Values per = "packageFragment" total = "12" avg = "12" stddev = "0" max = "12">
+         <Value name="io.onedev.server.plugin.report.markdown" package ="io.onedev.server.plugin.report.markdown" value ="12"/>
+      </Values>
+      <Values per = "type" total = "12" avg = "1,333" stddev = "0,816" max = "3">
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="3"/>
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NMI" description ="Number of Inherited Methods">
+      <Values per = "packageFragment" total = "359" avg = "359" stddev = "0" max = "359">
+         <Value name="io.onedev.server.plugin.report.markdown" package ="io.onedev.server.plugin.report.markdown" value ="359"/>
+      </Values>
+      <Values per = "type" total = "359" avg = "39,889" stddev = "76,266" max = "253">
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="253"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="210"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="33"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="31"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="17"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="16"/>
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="8"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSM" description ="Number of Static Methods">
+      <Values per = "type" total = "4" avg = "0,444" stddev = "0,497" max = "1">
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "SIX" description ="Specialization Index">
+      <Values per = "type" avg = "0,528" stddev = "0,87" max = "2,25">
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="6"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="2,25"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0,5"/>
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "SIX2" description ="Specialization Index 2">
+      <Values per = "type" avg = "0,084" stddev = "0,162" max = "0,5">
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0,5"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0,222"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="0,035"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0,028"/>
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOC" description ="Number of Classes">
+      <Values per = "packageFragment" total = "9" avg = "9" stddev = "0" max = "9">
+         <Value name="io.onedev.server.plugin.report.markdown" package ="io.onedev.server.plugin.report.markdown" value ="9"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOI" description ="Number of Interfaces">
+      <Values per = "packageFragment" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="io.onedev.server.plugin.report.markdown" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOP" description ="Number of Packages">
+      <Value value="1"/>
+   </Metric>
+   <Metric id = "TLOC" description ="Total Lines of Code">
+      <Value value="501"/>
+   </Metric>
+   <Metric id = "MLOC" description ="Method Lines of Code">
+      <Values per = "method" total = "259" avg = "9,962" stddev = "17,825" max = "68">
+         <Value name="newResourceResponse" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="68"/>
+         <Value name="configure" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="68"/>
+         <Value name="process" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="23"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3#getParts" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="18"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[#call" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="17"/>
+         <Value name="process" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="17"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="16"/>
+         <Value name="render" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="16"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2#getTabs" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="15"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[#newLink" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="11"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[#call" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="9"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[#writeData" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="9"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous##call" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="9"/>
+         <Value name="onInitialize" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="9"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous##call" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="8"/>
+         <Value name="render" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="8"/>
+         <Value name="paramsOf" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="6"/>
+         <Value name="isActive" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="6"/>
+         <Value name="paramsOf" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="5"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous##call" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous##call" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="3"/>
+         <Value name="renderHead" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="getStartPage" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="setStartPage" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="suggestVariables" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="getFile" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="getFilePatterns" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="setFile" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="suggestVariables" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="getResource" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2#getOrder" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3#getOrder" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4#configure" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[#getAbstractClass" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[#getImplementations" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="getReportName" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="isPermitted" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "DSC" description ="Design Size in Classes">
+      <Value value="9"/>
+   </Metric>
+   <Metric id = "ANA" description ="Average Number of Ancestors">
+      <Value value="3,444"/>
+   </Metric>
+   <Metric id = "MFA" description ="Measure of Functional Abstraction">
+      <Values per = "packageFragment" total = "1" avg = "1" stddev = "0" max = "1">
+         <Value name="io.onedev.server.plugin.report.markdown" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+      </Values>
+      <Values per = "type" total = "1" avg = "0,111" stddev = "0,314" max = "1">
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CIS" description ="Class Interface Size">
+      <Values per = "packageFragment" total = "15" avg = "15" stddev = "0" max = "15">
+         <Value name="io.onedev.server.plugin.report.markdown" package ="io.onedev.server.plugin.report.markdown" value ="15"/>
+      </Values>
+      <Values per = "type" total = "15" avg = "1,667" stddev = "1,333" max = "4">
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="4"/>
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="3"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="3"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "MOA" description ="Measure of Aggregation">
+      <Values per = "packageFragment" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="io.onedev.server.plugin.report.markdown" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DAM" description ="Data Access Metric">
+      <Values per = "packageFragment" total = "7" avg = "7" stddev = "0" max = "7">
+         <Value name="io.onedev.server.plugin.report.markdown" package ="io.onedev.server.plugin.report.markdown" value ="7"/>
+      </Values>
+      <Values per = "type" total = "7" avg = "0,778" stddev = "0,416" max = "1">
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOPM" description ="Number of Polymorphic Methods">
+      <Values per = "packageFragment" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="io.onedev.server.plugin.report.markdown" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CAM" description ="Cohesion Among Methods of Class">
+      <Values per = "type" total = "3,333" avg = "0,37" stddev = "0,373" max = "1">
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0,5"/>
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0,333"/>
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0,25"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="0,25"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DCC" description ="Direct Class Coupling">
+      <Values per = "packageFragment" total = "6" avg = "6" stddev = "0" max = "6">
+         <Value name="io.onedev.server.plugin.report.markdown" package ="io.onedev.server.plugin.report.markdown" value ="6"/>
+      </Values>
+      <Values per = "type" total = "6" avg = "0,667" stddev = "0,816" max = "2">
+         <Value name="JobMarkdownReport" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="JobPullRequestMarkdownReport" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="2"/>
+         <Value name="MarkdownReportDownloadResource" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="MarkdownReportPage" source ="MarkdownReportPage.java" package ="io.onedev.server.plugin.report.markdown" value ="1"/>
+         <Value name="JobMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="JobPullRequestMarkdownReport.anonymous#~process~QBuild;~QFile;~QSimpleLogger;[" source ="JobPullRequestMarkdownReport.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportCssResourceReference" source ="MarkdownReportCssResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResource.anonymous#~newResourceResponse~QAttributes;[.anonymous#" source ="MarkdownReportDownloadResource.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportDownloadResourceReference" source ="MarkdownReportDownloadResourceReference.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!2.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!3.anonymous#" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportModule.anonymous#~configure[!4" source ="MarkdownReportModule.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="MarkdownReportTab.anonymous#~render~QString;[.anonymous#" source ="MarkdownReportTab.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+         <Value name="PullRequestSummaryMarkdownPart" source ="PullRequestSummaryMarkdownPart.java" package ="io.onedev.server.plugin.report.markdown" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "REU" description ="Reusability">
+      <Value value="5,259"/>
+   </Metric>
+   <Metric id = "FLE" description ="Flexibility">
+      <Value value="0,028"/>
+   </Metric>
+   <Metric id = "EFE" description ="Effectiveness">
+      <Value value="0,867"/>
+   </Metric>
+   <Metric id = "EXT" description ="Extendibility">
+      <Value value="1,444"/>
+   </Metric>
+   <Metric id = "FUN" description ="Functionality">
+      <Value value="0"/>
+   </Metric>
+   <Metric id = "ENT" description ="Understandability">
+      <Value value="-4,388"/>
+   </Metric>
+   <Metric id = "NOH" description ="Number of Hierarchies">
+      <Value value="0"/>
+   </Metric>
+   </Metrics>

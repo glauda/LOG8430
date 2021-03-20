@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metrics scope="server-plugin-sso-openid" type="Project" date="2021-03-18" xmlns="http://metrics.sourceforge.net/2003/Metrics-First-Flat">
+   <Metric id = "VG" description ="McCabe Cyclomatic Complexity" max ="10" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "2,276" stddev = "2,728" max = "14" maxinrange="false">
+         <Value name="processTokenResponse" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="14" inrange="false"/>
+         <Value name="toHttpURLConnection" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="10"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="9"/>
+         <Value name="reconstructRequestURLString" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="9"/>
+         <Value name="send" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="8"/>
+         <Value name="processLoginResponse" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="8"/>
+         <Value name="buildException" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="5"/>
+         <Value name="processTokenResponse" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="4"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="3"/>
+         <Value name="ensureQuery" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="3"/>
+         <Value name="toHTTPResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="3"/>
+         <Value name="discoverProviderMetadata" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="3"/>
+         <Value name="initiateLogin" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="3"/>
+         <Value name="ensureMethod" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="2"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="2"/>
+         <Value name="parse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="2"/>
+         <Value name="getCachedProviderMetadata" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="2"/>
+         <Value name="getCallbackUri" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="2"/>
+         <Value name="getAuthorization" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="getMethod" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="getQuery" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="getQueryAsJSONObject" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="getQueryParameters" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="getURL" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="setAuthorization" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="setQuery" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="getErrorObject" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="getStandardErrors" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="parse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="onInitialize" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="discoverProviderMetadata" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getButtonImageUrl" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getGroupsClaim" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getIssuerUrl" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="isManagingMemberships" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getButtonImageUrl" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getClientId" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getClientSecret" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getGroupsClaim" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getIssuerUrl" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getName" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="isManagingMemberships" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="renderAdditionalInfo" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setButtonImageUrl" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setClientId" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setClientSecret" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setGroupsClaim" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setIssuerUrl" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setName" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="configure" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="OpenIdModule.anonymous#~configure[#getAbstractClass" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="OpenIdModule.anonymous#~configure[#getImplementations" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getAuthorizationEndpoint" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getIssuer" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getTokenEndpoint" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getUserInfoEndpoint" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "PAR" description ="Number of Parameters" max ="5" hint ="Move invoked method or pass an object">
+      <Values per = "method" avg = "0,448" stddev = "0,723" max = "4">
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="4"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="2"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="2"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="ensureMethod" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="reconstructRequestURLString" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="setAuthorization" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="setQuery" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="parse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="parse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="processTokenResponse" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="buildException" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="processTokenResponse" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="renderAdditionalInfo" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setButtonImageUrl" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setClientId" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setClientSecret" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setGroupsClaim" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setIssuerUrl" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setName" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="ensureQuery" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="getAuthorization" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="getMethod" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="getQuery" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="getQueryAsJSONObject" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="getQueryParameters" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="getURL" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="send" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="toHttpURLConnection" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="getErrorObject" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="getStandardErrors" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="toHTTPResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="onInitialize" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="discoverProviderMetadata" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="getButtonImageUrl" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="getGroupsClaim" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="getIssuerUrl" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="isManagingMemberships" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="discoverProviderMetadata" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="getButtonImageUrl" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="getCachedProviderMetadata" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="getCallbackUri" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="getClientId" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="getClientSecret" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="getGroupsClaim" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="getIssuerUrl" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="getName" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="initiateLogin" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="isManagingMemberships" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="processLoginResponse" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="configure" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule.anonymous#~configure[#getAbstractClass" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule.anonymous#~configure[#getImplementations" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="getAuthorizationEndpoint" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="getIssuer" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="getTokenEndpoint" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="getUserInfoEndpoint" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NBD" description ="Nested Block Depth" max ="5" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1,397" stddev = "0,909" max = "5">
+         <Value name="processLoginResponse" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="5"/>
+         <Value name="processTokenResponse" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="5"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="3"/>
+         <Value name="send" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="3"/>
+         <Value name="toHttpURLConnection" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="3"/>
+         <Value name="processTokenResponse" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="3"/>
+         <Value name="discoverProviderMetadata" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="3"/>
+         <Value name="reconstructRequestURLString" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="2"/>
+         <Value name="buildException" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="2"/>
+         <Value name="getCallbackUri" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="2"/>
+         <Value name="initiateLogin" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="2"/>
+         <Value name="configure" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="2"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="ensureMethod" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="ensureQuery" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="getAuthorization" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="getMethod" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="getQuery" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="getQueryAsJSONObject" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="getQueryParameters" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="getURL" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="setAuthorization" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="setQuery" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="getErrorObject" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="getStandardErrors" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="parse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="parse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="toHTTPResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="onInitialize" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="discoverProviderMetadata" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getButtonImageUrl" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getGroupsClaim" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getIssuerUrl" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="isManagingMemberships" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getButtonImageUrl" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getCachedProviderMetadata" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getClientId" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getClientSecret" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getGroupsClaim" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getIssuerUrl" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getName" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="isManagingMemberships" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="renderAdditionalInfo" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setButtonImageUrl" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setClientId" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setClientSecret" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setGroupsClaim" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setIssuerUrl" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setName" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="OpenIdModule.anonymous#~configure[#getAbstractClass" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="OpenIdModule.anonymous#~configure[#getImplementations" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getAuthorizationEndpoint" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getIssuer" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getTokenEndpoint" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getUserInfoEndpoint" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "CA" description ="Afferent Coupling">
+      <Values per = "packageFragment" avg = "0,667" stddev = "0,943" max = "2">
+         <Value name="com.nimbusds.openid.connect.sdk" package ="com.nimbusds.openid.connect.sdk" value ="2"/>
+         <Value name="com.nimbusds.oauth2.sdk.http" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="io.onedev.server.plugin.sso.openid" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CE" description ="Efferent Coupling">
+      <Values per = "packageFragment" avg = "2" stddev = "1,414" max = "4">
+         <Value name="io.onedev.server.plugin.sso.openid" package ="io.onedev.server.plugin.sso.openid" value ="4"/>
+         <Value name="com.nimbusds.oauth2.sdk.http" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="com.nimbusds.openid.connect.sdk" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMI" description ="Instability">
+      <Values per = "packageFragment" avg = "0,778" stddev = "0,314" max = "1">
+         <Value name="com.nimbusds.oauth2.sdk.http" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="io.onedev.server.plugin.sso.openid" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="com.nimbusds.openid.connect.sdk" package ="com.nimbusds.openid.connect.sdk" value ="0,333"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMA" description ="Abstractness">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="com.nimbusds.oauth2.sdk.http" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="com.nimbusds.openid.connect.sdk" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="io.onedev.server.plugin.sso.openid" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMD" description ="Normalized Distance">
+      <Values per = "packageFragment" avg = "0,222" stddev = "0,314" max = "0,667">
+         <Value name="com.nimbusds.openid.connect.sdk" package ="com.nimbusds.openid.connect.sdk" value ="0,667"/>
+         <Value name="com.nimbusds.oauth2.sdk.http" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="io.onedev.server.plugin.sso.openid" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DIT" description ="Depth of Inheritance Tree">
+      <Values per = "type" avg = "2,5" stddev = "1,118" max = "5">
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="5"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="3"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="3"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="2"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="2"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="2"/>
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="2"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "WMC" description ="Weighted methods per Class">
+      <Values per = "type" total = "132" avg = "16,5" stddev = "20,549" max = "52">
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="52"/>
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="51"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="11"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="10"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="5"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="2"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="2"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSC" description ="Number of Children">
+      <Values per = "type" total = "1" avg = "0,125" stddev = "0,331" max = "1">
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NORM" description ="Number of Overridden Methods">
+      <Values per = "type" total = "5" avg = "0,625" stddev = "1,317" max = "4">
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="4"/>
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "LCOM" description ="Lack of Cohesion of Methods">
+      <Values per = "type" avg = "0,291" stddev = "0,377" max = "0,85">
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0,85"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="0,75"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0,727"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOF" description ="Number of Attributes">
+      <Values per = "type" total = "19" avg = "2,375" stddev = "1,932" max = "5">
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="5"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="4"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="4"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="4"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSF" description ="Number of Static Attributes">
+      <Values per = "type" total = "6" avg = "0,75" stddev = "1,299" max = "4">
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="4"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOM" description ="Number of Methods">
+      <Values per = "type" total = "47" avg = "5,875" stddev = "6,772" max = "21">
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="21"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="12"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="6"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="4"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="2"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="2"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NONM" description ="Number of Normal Methods">
+      <Values per = "packageFragment" total = "28" avg = "9,333" stddev = "7,134" max = "19">
+         <Value name="io.onedev.server.plugin.sso.openid" package ="io.onedev.server.plugin.sso.openid" value ="19"/>
+         <Value name="com.nimbusds.oauth2.sdk.http" package ="com.nimbusds.oauth2.sdk.http" value ="7"/>
+         <Value name="com.nimbusds.openid.connect.sdk" package ="com.nimbusds.openid.connect.sdk" value ="2"/>
+      </Values>
+      <Values per = "type" total = "28" avg = "3,5" stddev = "3,775" max = "11">
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="11"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="7"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="6"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="2"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="2"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NMI" description ="Number of Inherited Methods">
+      <Values per = "packageFragment" total = "269" avg = "89,667" stddev = "114,95" max = "252">
+         <Value name="io.onedev.server.plugin.sso.openid" package ="io.onedev.server.plugin.sso.openid" value ="252"/>
+         <Value name="com.nimbusds.oauth2.sdk.http" package ="com.nimbusds.oauth2.sdk.http" value ="16"/>
+         <Value name="com.nimbusds.openid.connect.sdk" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+      </Values>
+      <Values per = "type" total = "269" avg = "33,625" stddev = "66,665" max = "208">
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="208"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="33"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="12"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="9"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="4"/>
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="2"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSM" description ="Number of Static Methods">
+      <Values per = "type" total = "4" avg = "0,5" stddev = "1" max = "3">
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="3"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "SIX" description ="Specialization Index">
+      <Values per = "type" avg = "0,262" stddev = "0,658" max = "2">
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="2"/>
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0,095"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "SIX2" description ="Specialization Index 2">
+      <Values per = "type" avg = "0,111" stddev = "0,262" max = "0,8">
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0,8"/>
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0,087"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOC" description ="Number of Classes">
+      <Values per = "packageFragment" total = "8" avg = "2,667" stddev = "1,7" max = "5">
+         <Value name="io.onedev.server.plugin.sso.openid" package ="io.onedev.server.plugin.sso.openid" value ="5"/>
+         <Value name="com.nimbusds.oauth2.sdk.http" package ="com.nimbusds.oauth2.sdk.http" value ="2"/>
+         <Value name="com.nimbusds.openid.connect.sdk" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOI" description ="Number of Interfaces">
+      <Values per = "packageFragment" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="com.nimbusds.oauth2.sdk.http" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="com.nimbusds.openid.connect.sdk" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="io.onedev.server.plugin.sso.openid" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOP" description ="Number of Packages">
+      <Value value="3"/>
+   </Metric>
+   <Metric id = "TLOC" description ="Total Lines of Code">
+      <Value value="716"/>
+   </Metric>
+   <Metric id = "MLOC" description ="Method Lines of Code">
+      <Values per = "method" total = "401" avg = "6,914" stddev = "10,585" max = "46">
+         <Value name="send" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="46"/>
+         <Value name="processTokenResponse" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="45"/>
+         <Value name="processLoginResponse" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="40"/>
+         <Value name="reconstructRequestURLString" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="30"/>
+         <Value name="toHttpURLConnection" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="27"/>
+         <Value name="processTokenResponse" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="19"/>
+         <Value name="discoverProviderMetadata" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="16"/>
+         <Value name="initiateLogin" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="16"/>
+         <Value name="buildException" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="15"/>
+         <Value name="configure" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="11"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="10"/>
+         <Value name="toHTTPResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="8"/>
+         <Value name="getAuthorization" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="7"/>
+         <Value name="getQueryParameters" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="7"/>
+         <Value name="setAuthorization" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="7"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="7"/>
+         <Value name="parse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="7"/>
+         <Value name="getCallbackUri" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="7"/>
+         <Value name="getStandardErrors" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="6"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="5"/>
+         <Value name="discoverProviderMetadata" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="5"/>
+         <Value name="getQuery" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="4"/>
+         <Value name="setQuery" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="4"/>
+         <Value name="getCachedProviderMetadata" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="4"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="4"/>
+         <Value name="ensureMethod" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="3"/>
+         <Value name="getQueryAsJSONObject" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="3"/>
+         <Value name="parse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="3"/>
+         <Value name="onInitialize" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="3"/>
+         <Value name="ensureQuery" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="2"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="2"/>
+         <Value name="getButtonImageUrl" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="2"/>
+         <Value name="getMethod" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="getURL" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="getErrorObject" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getGroupsClaim" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getIssuerUrl" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="isManagingMemberships" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getButtonImageUrl" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getClientId" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getClientSecret" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getGroupsClaim" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getIssuerUrl" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getName" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="isManagingMemberships" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="renderAdditionalInfo" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setButtonImageUrl" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setClientId" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setClientSecret" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setGroupsClaim" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setIssuerUrl" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="setName" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="OpenIdModule.anonymous#~configure[#getAbstractClass" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="OpenIdModule.anonymous#~configure[#getImplementations" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getAuthorizationEndpoint" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getIssuer" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getTokenEndpoint" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="getUserInfoEndpoint" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "DSC" description ="Design Size in Classes">
+      <Value value="8"/>
+   </Metric>
+   <Metric id = "ANA" description ="Average Number of Ancestors">
+      <Value value="2,5"/>
+   </Metric>
+   <Metric id = "MFA" description ="Measure of Functional Abstraction">
+      <Values per = "packageFragment" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="com.nimbusds.oauth2.sdk.http" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="com.nimbusds.openid.connect.sdk" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="io.onedev.server.plugin.sso.openid" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CIS" description ="Class Interface Size">
+      <Values per = "packageFragment" total = "40" avg = "13,333" stddev = "7,93" max = "24">
+         <Value name="io.onedev.server.plugin.sso.openid" package ="io.onedev.server.plugin.sso.openid" value ="24"/>
+         <Value name="com.nimbusds.oauth2.sdk.http" package ="com.nimbusds.oauth2.sdk.http" value ="11"/>
+         <Value name="com.nimbusds.openid.connect.sdk" package ="com.nimbusds.openid.connect.sdk" value ="5"/>
+      </Values>
+      <Values per = "type" total = "40" avg = "5" stddev = "5,408" max = "16">
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="16"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="11"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="5"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="4"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="4"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="2"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "MOA" description ="Measure of Aggregation">
+      <Values per = "packageFragment" total = "1" avg = "0,333" stddev = "0,471" max = "1">
+         <Value name="com.nimbusds.oauth2.sdk.http" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="com.nimbusds.openid.connect.sdk" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="io.onedev.server.plugin.sso.openid" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+      <Values per = "type" total = "1" avg = "0,125" stddev = "0,331" max = "1">
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DAM" description ="Data Access Metric">
+      <Values per = "packageFragment" total = "7" avg = "2,333" stddev = "1,247" max = "4">
+         <Value name="io.onedev.server.plugin.sso.openid" package ="io.onedev.server.plugin.sso.openid" value ="4"/>
+         <Value name="com.nimbusds.oauth2.sdk.http" package ="com.nimbusds.oauth2.sdk.http" value ="2"/>
+         <Value name="com.nimbusds.openid.connect.sdk" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+      </Values>
+      <Values per = "type" total = "7" avg = "0,875" stddev = "0,331" max = "1">
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="1"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="1"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOPM" description ="Number of Polymorphic Methods">
+      <Values per = "packageFragment" total = "6" avg = "2" stddev = "2,828" max = "6">
+         <Value name="io.onedev.server.plugin.sso.openid" package ="io.onedev.server.plugin.sso.openid" value ="6"/>
+         <Value name="com.nimbusds.oauth2.sdk.http" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="com.nimbusds.openid.connect.sdk" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+      </Values>
+      <Values per = "type" total = "6" avg = "0,75" stddev = "1,984" max = "6">
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="6"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CAM" description ="Cohesion Among Methods of Class">
+      <Values per = "type" total = "0,435" avg = "0,054" stddev = "0,071" max = "0,167">
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0,167"/>
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0,143"/>
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0,125"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DCC" description ="Direct Class Coupling">
+      <Values per = "packageFragment" total = "1" avg = "0,333" stddev = "0,471" max = "1">
+         <Value name="com.nimbusds.oauth2.sdk.http" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="com.nimbusds.openid.connect.sdk" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="io.onedev.server.plugin.sso.openid" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+      <Values per = "type" total = "1" avg = "0,125" stddev = "0,331" max = "1">
+         <Value name="HTTPRequest" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="1"/>
+         <Value name="HTTPRequest.Method" source ="HTTPRequest.java" package ="com.nimbusds.oauth2.sdk.http" value ="0"/>
+         <Value name="UserInfoErrorResponse" source ="UserInfoErrorResponse.java" package ="com.nimbusds.openid.connect.sdk" value ="0"/>
+         <Value name="CallbackUrlPanel" source ="CallbackUrlPanel.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="GitHubConnector" source ="GitHubConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdConnector" source ="OpenIdConnector.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="OpenIdModule.anonymous#~configure[" source ="OpenIdModule.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+         <Value name="ProviderMetadata" source ="ProviderMetadata.java" package ="io.onedev.server.plugin.sso.openid" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "REU" description ="Reusability">
+      <Value value="6,482"/>
+   </Metric>
+   <Metric id = "FLE" description ="Flexibility">
+      <Value value="0,625"/>
+   </Metric>
+   <Metric id = "EFE" description ="Effectiveness">
+      <Value value="0,85"/>
+   </Metric>
+   <Metric id = "EXT" description ="Extendibility">
+      <Value value="1,562"/>
+   </Metric>
+   <Metric id = "FUN" description ="Functionality">
+      <Value value="0"/>
+   </Metric>
+   <Metric id = "ENT" description ="Understandability">
+      <Value value="-4,602"/>
+   </Metric>
+   <Metric id = "NOH" description ="Number of Hierarchies">
+      <Value value="0"/>
+   </Metric>
+   </Metrics>

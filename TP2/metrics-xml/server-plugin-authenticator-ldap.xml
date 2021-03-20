@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metrics scope="server-plugin-authenticator-ldap" type="Project" date="2021-03-18" xmlns="http://metrics.sourceforge.net/2003/Metrics-First-Flat">
+   <Metric id = "VG" description ="McCabe Cyclomatic Complexity" max ="10" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "2,087" stddev = "4,313" max = "28" maxinrange="false">
+         <Value name="authenticate" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="28" inrange="false"/>
+         <Value name="retrieveGroupsByAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="11" inrange="false"/>
+         <Value name="retrieveGroupsByFilter" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="9"/>
+         <Value name="retrieveSshKeys" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="5"/>
+         <Value name="getGroupRetrieval" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="2"/>
+         <Value name="getGroupSearchBase" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getLdapUrl" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getManagerDN" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserSearchBase" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserSearchFilter" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupSearchBase" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setLdapUrl" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setManagerDN" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSearchBase" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSearchFilter" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getGroupNameAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserGroupsAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupNameAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserGroupsAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getGroupRetrieval" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getLdapUrl" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getManagerDN" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getManagerPassword" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserEmailAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserFullNameAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserSearchBase" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserSearchFilter" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserSshKeyAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="isManagingMemberships" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="isManagingSshKeys" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupRetrieval" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setLdapUrl" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setManagerDN" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setManagerPassword" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserEmailAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserFullNameAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSearchBase" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSearchFilter" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSshKeyAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="configure" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="LdapModule.anonymous#~configure[#getAbstractClass" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="LdapModule.anonymous#~configure[#getImplementations" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getGroupNameAttribute" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getGroupSearchBase" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getGroupSearchFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupNameAttribute" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupSearchBase" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupSearchFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "PAR" description ="Number of Parameters" max ="5" hint ="Move invoked method or pass an object">
+      <Values per = "method" avg = "0,587" stddev = "0,709" max = "3">
+         <Value name="retrieveGroupsByAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="3"/>
+         <Value name="retrieveGroupsByFilter" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="3"/>
+         <Value name="setGroupSearchBase" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setLdapUrl" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setManagerDN" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSearchBase" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSearchFilter" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupNameAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserGroupsAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="authenticate" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="retrieveSshKeys" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupRetrieval" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setLdapUrl" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setManagerDN" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setManagerPassword" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserEmailAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserFullNameAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSearchBase" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSearchFilter" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSshKeyAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupNameAttribute" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupSearchBase" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupSearchFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getGroupRetrieval" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getGroupSearchBase" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getLdapUrl" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getManagerDN" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getUserSearchBase" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getUserSearchFilter" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getGroupNameAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getUserGroupsAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getGroupRetrieval" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getLdapUrl" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getManagerDN" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getManagerPassword" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getUserEmailAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getUserFullNameAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getUserSearchBase" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getUserSearchFilter" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getUserSshKeyAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="isManagingMemberships" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="isManagingSshKeys" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="configure" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule.anonymous#~configure[#getAbstractClass" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule.anonymous#~configure[#getImplementations" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getGroupNameAttribute" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getGroupSearchBase" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="getGroupSearchFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NBD" description ="Nested Block Depth" max ="5" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1,413" stddev = "1,244" max = "7" maxinrange="false">
+         <Value name="retrieveGroupsByAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="7" inrange="false"/>
+         <Value name="authenticate" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="5"/>
+         <Value name="retrieveGroupsByFilter" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="5"/>
+         <Value name="retrieveSshKeys" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="4"/>
+         <Value name="getGroupRetrieval" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="2"/>
+         <Value name="configure" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="2"/>
+         <Value name="getGroupSearchBase" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getLdapUrl" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getManagerDN" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserSearchBase" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserSearchFilter" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupSearchBase" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setLdapUrl" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setManagerDN" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSearchBase" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSearchFilter" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getGroupNameAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserGroupsAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupNameAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserGroupsAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getGroupRetrieval" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getLdapUrl" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getManagerDN" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getManagerPassword" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserEmailAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserFullNameAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserSearchBase" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserSearchFilter" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserSshKeyAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="isManagingMemberships" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="isManagingSshKeys" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupRetrieval" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setLdapUrl" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setManagerDN" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setManagerPassword" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserEmailAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserFullNameAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSearchBase" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSearchFilter" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSshKeyAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="LdapModule.anonymous#~configure[#getAbstractClass" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="LdapModule.anonymous#~configure[#getImplementations" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getGroupNameAttribute" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getGroupSearchBase" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getGroupSearchFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupNameAttribute" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupSearchBase" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupSearchFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "CA" description ="Afferent Coupling">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="io.onedev.server.plugin.authenticator.ldap" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CE" description ="Efferent Coupling">
+      <Values per = "packageFragment" avg = "7" stddev = "0" max = "7">
+         <Value name="io.onedev.server.plugin.authenticator.ldap" package ="io.onedev.server.plugin.authenticator.ldap" value ="7"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMI" description ="Instability">
+      <Values per = "packageFragment" avg = "1" stddev = "0" max = "1">
+         <Value name="io.onedev.server.plugin.authenticator.ldap" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMA" description ="Abstractness">
+      <Values per = "packageFragment" avg = "0,143" stddev = "0" max = "0,143">
+         <Value name="io.onedev.server.plugin.authenticator.ldap" package ="io.onedev.server.plugin.authenticator.ldap" value ="0,143"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMD" description ="Normalized Distance">
+      <Values per = "packageFragment" avg = "0,143" stddev = "0" max = "0,143">
+         <Value name="io.onedev.server.plugin.authenticator.ldap" package ="io.onedev.server.plugin.authenticator.ldap" value ="0,143"/>
+      </Values>
+   </Metric>
+   <Metric id = "DIT" description ="Depth of Inheritance Tree">
+      <Values per = "type" avg = "1,571" stddev = "1,05" max = "3">
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="3"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="3"/>
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="2"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "WMC" description ="Weighted methods per Class">
+      <Values per = "type" total = "96" avg = "13,714" stddev = "24,522" max = "73">
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="73"/>
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="12"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="6"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="4"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="2"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSC" description ="Number of Children">
+      <Values per = "type" total = "4" avg = "0,571" stddev = "1,05" max = "3">
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="3"/>
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NORM" description ="Number of Overridden Methods">
+      <Values per = "type" total = "2" avg = "0,286" stddev = "0,7" max = "2">
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="2"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "LCOM" description ="Lack of Cohesion of Methods">
+      <Values per = "type" avg = "0,341" stddev = "0,4" max = "0,922">
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0,922"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0,8"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0,667"/>
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOF" description ="Number of Attributes">
+      <Values per = "type" total = "15" avg = "2,143" stddev = "2,997" max = "9">
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="9"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="3"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="2"/>
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSF" description ="Number of Static Attributes">
+      <Values per = "type" total = "6" avg = "0,857" stddev = "0,639" max = "2">
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="2"/>
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOM" description ="Number of Methods">
+      <Values per = "type" total = "46" avg = "6,571" stddev = "7,997" max = "24">
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="24"/>
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="11"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="6"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="4"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="2"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NONM" description ="Number of Normal Methods">
+      <Values per = "packageFragment" total = "16" avg = "16" stddev = "0" max = "16">
+         <Value name="io.onedev.server.plugin.authenticator.ldap" package ="io.onedev.server.plugin.authenticator.ldap" value ="16"/>
+      </Values>
+      <Values per = "type" total = "16" avg = "2,286" stddev = "3,411" max = "9">
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="9"/>
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="6"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="2"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NMI" description ="Number of Inherited Methods">
+      <Values per = "packageFragment" total = "40" avg = "40" stddev = "0" max = "40">
+         <Value name="io.onedev.server.plugin.authenticator.ldap" package ="io.onedev.server.plugin.authenticator.ldap" value ="40"/>
+      </Values>
+      <Values per = "type" total = "40" avg = "5,714" stddev = "11,272" max = "33">
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="33"/>
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="5"/>
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="2"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSM" description ="Number of Static Methods">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "SIX" description ="Specialization Index">
+      <Values per = "type" avg = "0,078" stddev = "0,191" max = "0,545">
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0,545"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "SIX2" description ="Specialization Index 2">
+      <Values per = "type" avg = "0,054" stddev = "0,131" max = "0,375">
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0,375"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOC" description ="Number of Classes">
+      <Values per = "packageFragment" total = "7" avg = "7" stddev = "0" max = "7">
+         <Value name="io.onedev.server.plugin.authenticator.ldap" package ="io.onedev.server.plugin.authenticator.ldap" value ="7"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOI" description ="Number of Interfaces">
+      <Values per = "packageFragment" total = "1" avg = "1" stddev = "0" max = "1">
+         <Value name="io.onedev.server.plugin.authenticator.ldap" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOP" description ="Number of Packages">
+      <Value value="1"/>
+   </Metric>
+   <Metric id = "TLOC" description ="Total Lines of Code">
+      <Value value="553"/>
+   </Metric>
+   <Metric id = "MLOC" description ="Method Lines of Code">
+      <Values per = "method" total = "277" avg = "6,022" stddev = "18,651" max = "117">
+         <Value name="authenticate" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="117"/>
+         <Value name="retrieveGroupsByAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="45"/>
+         <Value name="retrieveGroupsByFilter" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="37"/>
+         <Value name="retrieveSshKeys" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="19"/>
+         <Value name="configure" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="11"/>
+         <Value name="getGroupRetrieval" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="8"/>
+         <Value name="getGroupSearchBase" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getLdapUrl" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getManagerDN" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserSearchBase" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserSearchFilter" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupSearchBase" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setLdapUrl" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setManagerDN" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSearchBase" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSearchFilter" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getGroupNameAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserGroupsAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupNameAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserGroupsAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getGroupRetrieval" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getLdapUrl" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getManagerDN" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getManagerPassword" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserEmailAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserFullNameAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserSearchBase" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserSearchFilter" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getUserSshKeyAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="isManagingMemberships" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="isManagingSshKeys" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupRetrieval" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setLdapUrl" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setManagerDN" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setManagerPassword" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserEmailAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserFullNameAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSearchBase" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSearchFilter" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setUserSshKeyAttribute" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="LdapModule.anonymous#~configure[#getAbstractClass" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="LdapModule.anonymous#~configure[#getImplementations" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getGroupNameAttribute" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getGroupSearchBase" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="getGroupSearchFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupNameAttribute" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupSearchBase" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="setGroupSearchFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "DSC" description ="Design Size in Classes">
+      <Value value="7"/>
+   </Metric>
+   <Metric id = "ANA" description ="Average Number of Ancestors">
+      <Value value="1,571"/>
+   </Metric>
+   <Metric id = "MFA" description ="Measure of Functional Abstraction">
+      <Values per = "packageFragment" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="io.onedev.server.plugin.authenticator.ldap" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CIS" description ="Class Interface Size">
+      <Values per = "packageFragment" total = "42" avg = "42" stddev = "0" max = "42">
+         <Value name="io.onedev.server.plugin.authenticator.ldap" package ="io.onedev.server.plugin.authenticator.ldap" value ="42"/>
+      </Values>
+      <Values per = "type" total = "42" avg = "6" stddev = "7,191" max = "21">
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="21"/>
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="11"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="6"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="4"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="2"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "MOA" description ="Measure of Aggregation">
+      <Values per = "packageFragment" total = "1" avg = "1" stddev = "0" max = "1">
+         <Value name="io.onedev.server.plugin.authenticator.ldap" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+      </Values>
+      <Values per = "type" total = "1" avg = "0,143" stddev = "0,35" max = "1">
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DAM" description ="Data Access Metric">
+      <Values per = "packageFragment" total = "5" avg = "5" stddev = "0" max = "5">
+         <Value name="io.onedev.server.plugin.authenticator.ldap" package ="io.onedev.server.plugin.authenticator.ldap" value ="5"/>
+      </Values>
+      <Values per = "type" total = "5" avg = "0,714" stddev = "0,452" max = "1">
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOPM" description ="Number of Polymorphic Methods">
+      <Values per = "packageFragment" total = "9" avg = "9" stddev = "0" max = "9">
+         <Value name="io.onedev.server.plugin.authenticator.ldap" package ="io.onedev.server.plugin.authenticator.ldap" value ="9"/>
+      </Values>
+      <Values per = "type" total = "9" avg = "1,286" stddev = "3,149" max = "9">
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="9"/>
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CAM" description ="Cohesion Among Methods of Class">
+      <Values per = "type" total = "1,58" avg = "0,226" stddev = "0,229" max = "0,5">
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0,5"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0,5"/>
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0,455"/>
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0,125"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DCC" description ="Direct Class Coupling">
+      <Values per = "packageFragment" total = "1" avg = "1" stddev = "0" max = "1">
+         <Value name="io.onedev.server.plugin.authenticator.ldap" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+      </Values>
+      <Values per = "type" total = "1" avg = "0,143" stddev = "0,35" max = "1">
+         <Value name="LdapAuthenticator" source ="LdapAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="1"/>
+         <Value name="ActiveDirectoryAuthenticator" source ="ActiveDirectoryAuthenticator.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="DoNotRetrieveGroups" source ="DoNotRetrieveGroups.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GetGroupsUsingAttribute" source ="GetGroupsUsingAttribute.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="GroupRetrieval" source ="GroupRetrieval.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="LdapModule.anonymous#~configure[" source ="LdapModule.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+         <Value name="SearchGroupsUsingFilter" source ="SearchGroupsUsingFilter.java" package ="io.onedev.server.plugin.authenticator.ldap" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "REU" description ="Reusability">
+      <Value value="6,521"/>
+   </Metric>
+   <Metric id = "FLE" description ="Flexibility">
+      <Value value="0,857"/>
+   </Metric>
+   <Metric id = "EFE" description ="Effectiveness">
+      <Value value="0,743"/>
+   </Metric>
+   <Metric id = "EXT" description ="Extendibility">
+      <Value value="1,357"/>
+   </Metric>
+   <Metric id = "FUN" description ="Functionality">
+      <Value value="0"/>
+   </Metric>
+   <Metric id = "ENT" description ="Understandability">
+      <Value value="-3,744"/>
+   </Metric>
+   <Metric id = "NOH" description ="Number of Hierarchies">
+      <Value value="1"/>
+   </Metric>
+   </Metrics>

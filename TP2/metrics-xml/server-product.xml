@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metrics scope="server-product" type="Project" date="2021-03-18" xmlns="http://metrics.sourceforge.net/2003/Metrics-First-Flat">
+   <Metric id = "VG" description ="McCabe Cyclomatic Complexity" max ="10" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "3,133" stddev = "5,784" max = "24" maxinrange="false">
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="24" inrange="false"/>
+         <Value name="configure" source ="ProductModule.java" package ="io.onedev.server.product" value ="7"/>
+         <Value name="configure" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="3"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="2"/>
+         <Value name="getHttpPort" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getHttpsPort" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getKeystoreFile" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getKeystorePassword" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getSessionTimeout" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getSshPort" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getTrustCertsDir" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="configure" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[#sessionCreated" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[#sessionDestroyed" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="test" source ="Test.java" package ="io.onedev.server.product" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "PAR" description ="Number of Parameters" max ="5" hint ="Move invoked method or pass an object">
+      <Values per = "method" avg = "0,867" stddev = "1,962" max = "8" maxinrange="false">
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="8" inrange="false"/>
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="configure" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="configure" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[#sessionCreated" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[#sessionDestroyed" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getHttpPort" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="getHttpsPort" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="getKeystoreFile" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="getKeystorePassword" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="getSessionTimeout" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="getSshPort" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="getTrustCertsDir" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="configure" source ="ProductModule.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="test" source ="Test.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NBD" description ="Nested Block Depth" max ="5" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1,4" stddev = "0,8" max = "4">
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="4"/>
+         <Value name="configure" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="2"/>
+         <Value name="configure" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="2"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="2"/>
+         <Value name="getHttpPort" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getHttpsPort" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getKeystoreFile" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getKeystorePassword" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getSessionTimeout" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getSshPort" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getTrustCertsDir" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="configure" source ="ProductModule.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[#sessionCreated" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[#sessionDestroyed" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="test" source ="Test.java" package ="io.onedev.server.product" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "CA" description ="Afferent Coupling">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="0"/>
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CE" description ="Efferent Coupling">
+      <Values per = "packageFragment" avg = "2,5" stddev = "1,5" max = "4">
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="4"/>
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMI" description ="Instability">
+      <Values per = "packageFragment" avg = "1" stddev = "0" max = "1">
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="1"/>
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMA" description ="Abstractness">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="0"/>
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMD" description ="Normalized Distance">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="0"/>
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DIT" description ="Depth of Inheritance Tree">
+      <Values per = "type" avg = "1,833" stddev = "1,213" max = "4">
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="4"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="3"/>
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "WMC" description ="Weighted methods per Class">
+      <Values per = "type" total = "47" avg = "7,833" stddev = "10,542" max = "31">
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="31"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="7"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="4"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="2"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="2"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="2"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSC" description ="Number of Children">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NORM" description ="Number of Overridden Methods">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "LCOM" description ="Lack of Cohesion of Methods">
+      <Values per = "type" avg = "0,143" stddev = "0,319" max = "0,857">
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0,857"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOF" description ="Number of Attributes">
+      <Values per = "type" total = "16" avg = "2,667" stddev = "3,448" max = "8">
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="8"/>
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="7"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSF" description ="Number of Static Attributes">
+      <Values per = "type" total = "9" avg = "1,5" stddev = "2,93" max = "8">
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="8"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOM" description ="Number of Methods">
+      <Values per = "type" total = "11" avg = "1,833" stddev = "2,339" max = "7">
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="7"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="2"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NONM" description ="Number of Normal Methods">
+      <Values per = "packageFragment" total = "4" avg = "2" stddev = "1" max = "3">
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="3"/>
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="1"/>
+      </Values>
+      <Values per = "type" total = "4" avg = "0,667" stddev = "0,471" max = "1">
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="2"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NMI" description ="Number of Inherited Methods">
+      <Values per = "packageFragment" total = "88" avg = "44" stddev = "44" max = "88">
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="88"/>
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+      <Values per = "type" total = "88" avg = "14,667" stddev = "21,692" max = "55">
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="55"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="33"/>
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSM" description ="Number of Static Methods">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "SIX" description ="Specialization Index">
+      <Values per = "type" avg = "0" stddev = "0" max = "0">
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "SIX2" description ="Specialization Index 2">
+      <Values per = "type" avg = "0" stddev = "0" max = "0">
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOC" description ="Number of Classes">
+      <Values per = "packageFragment" total = "6" avg = "3" stddev = "2" max = "5">
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="5"/>
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOI" description ="Number of Interfaces">
+      <Values per = "packageFragment" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="0"/>
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOP" description ="Number of Packages">
+      <Value value="2"/>
+   </Metric>
+   <Metric id = "TLOC" description ="Total Lines of Code">
+      <Value value="309"/>
+   </Metric>
+   <Metric id = "MLOC" description ="Method Lines of Code">
+      <Values per = "method" total = "157" avg = "10,467" stddev = "17,549" max = "67">
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="67"/>
+         <Value name="configure" source ="ProductModule.java" package ="io.onedev.server.product" value ="26"/>
+         <Value name="configure" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="24"/>
+         <Value name="configure" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="21"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="8"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="3"/>
+         <Value name="getHttpPort" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getHttpsPort" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getKeystoreFile" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getKeystorePassword" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getSessionTimeout" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getSshPort" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="getTrustCertsDir" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[#sessionDestroyed" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[#sessionCreated" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="test" source ="Test.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DSC" description ="Design Size in Classes">
+      <Value value="6"/>
+   </Metric>
+   <Metric id = "ANA" description ="Average Number of Ancestors">
+      <Value value="1,833"/>
+   </Metric>
+   <Metric id = "MFA" description ="Measure of Functional Abstraction">
+      <Values per = "packageFragment" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="0"/>
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CIS" description ="Class Interface Size">
+      <Values per = "packageFragment" total = "10" avg = "5" stddev = "4" max = "9">
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="9"/>
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="1"/>
+      </Values>
+      <Values per = "type" total = "10" avg = "1,667" stddev = "2,427" max = "7">
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="7"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="2"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "MOA" description ="Measure of Aggregation">
+      <Values per = "packageFragment" total = "6" avg = "3" stddev = "3" max = "6">
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="6"/>
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+      <Values per = "type" total = "6" avg = "1" stddev = "1,826" max = "5">
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="5"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DAM" description ="Data Access Metric">
+      <Values per = "packageFragment" total = "4" avg = "2" stddev = "2" max = "4">
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="4"/>
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+      <Values per = "type" total = "4" avg = "0,667" stddev = "0,471" max = "1">
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOPM" description ="Number of Polymorphic Methods">
+      <Values per = "packageFragment" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="0"/>
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CAM" description ="Cohesion Among Methods of Class">
+      <Values per = "type" total = "2" avg = "0,333" stddev = "0,471" max = "1">
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DCC" description ="Direct Class Coupling">
+      <Values per = "packageFragment" total = "7" avg = "3,5" stddev = "3,5" max = "7">
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="7"/>
+         <Value name="io.onedev.server.product" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+      <Values per = "type" total = "7" avg = "1,167" stddev = "1,772" max = "5">
+         <Value name="ProductServletConfigurator" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="5"/>
+         <Value name="DefaultServerConfig" source ="DefaultServerConfig.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductConfigurator" source ="ProductConfigurator.java" package ="io.onedev.server.product" value ="1"/>
+         <Value name="ProductModule" source ="ProductModule.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ProductServletConfigurator.anonymous#~configure~QServletContextHandler;[" source ="ProductServletConfigurator.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="ServerProperties" source ="ServerProperties.java" package ="io.onedev.server.product" value ="0"/>
+         <Value name="Test" source ="Test.java" package ="io.onedev.server.product" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "REU" description ="Reusability">
+      <Value value="3,625"/>
+   </Metric>
+   <Metric id = "FLE" description ="Flexibility">
+      <Value value="0,375"/>
+   </Metric>
+   <Metric id = "EFE" description ="Effectiveness">
+      <Value value="0,7"/>
+   </Metric>
+   <Metric id = "EXT" description ="Extendibility">
+      <Value value="0,333"/>
+   </Metric>
+   <Metric id = "FUN" description ="Functionality">
+      <Value value="0"/>
+   </Metric>
+   <Metric id = "ENT" description ="Understandability">
+      <Value value="-2,86"/>
+   </Metric>
+   <Metric id = "NOH" description ="Number of Hierarchies">
+      <Value value="0"/>
+   </Metric>
+   </Metrics>
